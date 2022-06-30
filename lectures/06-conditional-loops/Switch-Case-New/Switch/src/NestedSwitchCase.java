@@ -6,6 +6,8 @@ public class NestedSwitchCase {
         int empId = in.nextInt();
         String deptName = in.next();
 
+
+
         switch (empId){
             case 1 :
                 System.out.println("The Weeknd");

@@ -4,8 +4,11 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-       int ans =  sum2();
-        System.out.println("sum is : "+ ans);
+//       int ans =  sum2();
+//        System.out.println("sum is : "+ ans);
+
+        int result = sum3(100,900);
+        System.out.println(result);
        // take input of two number and print sum
 //        Scanner in = new Scanner(System.in);
 //        int a,b,sum;
@@ -19,6 +22,13 @@ public class Main {
 //        System.out.println("The SUm is = "+sum);
 
         // if someone asks 100 times then you can not copy do not repeat yourself;
+    }
+
+    // arguments in the method calling is called as parameter
+    static  int sum3(int a,int b){
+
+        int ans = a +b;
+        return  ans;
     }
 
     // return the value from sum
