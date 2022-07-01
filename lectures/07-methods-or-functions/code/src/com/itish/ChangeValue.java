@@ -10,7 +10,7 @@ public class ChangeValue {
     }
 
      static void change(int[] nums) {
-        nums[0] = 33;// if you make change to the reference variable same object will be changed.
+        nums[0] = 32;
     }
 
 }
