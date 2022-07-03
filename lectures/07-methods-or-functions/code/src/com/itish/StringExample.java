@@ -10,6 +10,7 @@ public class StringExample {
 
         String personalised = helloName(naam);
         System.out.println(personalised);
+        hello();
 
 
     }
@@ -17,6 +18,9 @@ public class StringExample {
      static String helloName(String name) {
         String yourName = "Hello " + name;
         return  yourName;
+    }
+    static void hello(){
+        System.out.println("Some data");
     }
 
 }

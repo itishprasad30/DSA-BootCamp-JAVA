@@ -35,6 +35,8 @@ public class ScopeingInJava {
         // scoping in for loops
         for (int i = 0; i < 4; i++) {
             System.out.println(i);
+            int num =222;
+
             a = 1_000;
 
         }
