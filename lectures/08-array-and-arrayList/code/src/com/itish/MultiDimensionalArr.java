@@ -48,7 +48,7 @@ public class MultiDimensionalArr {
 
         }
         // output with arrarys.tostring() enhanced for loop forEach
-        for(int a[]: arr){
+        for(int[] a: arr){
             System.out.println(Arrays.toString(a));
 
         }
