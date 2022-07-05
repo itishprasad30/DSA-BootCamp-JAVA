@@ -40,6 +40,22 @@ public class Main {
 
         //System.out.println(nums[5]); // array index out of bounds
 
+        // take input
+        for (int i = 0; i < numbers.length; i++) {
+            numbers[i] = in.nextInt();
+
+        }
+        for (int i = 0; i < numbers.length; i++) {
+            System.out.print(numbers[i]);
+
+        }
+        
+        // forEach enhanced forEach
+        for (int number :
+                numbers) {
+            System.out.println(number + " ");
+        }
+
         // array in objects
         String[] str = new String[4];
 
