@@ -8,7 +8,7 @@ public class SwapArray {
 //        swap (arr,0,4);
 //        System.out.println(Arrays.toString(arr));
         reverse(arr);
-        System.out.println(Arrays.toString(arr));
+        System.out.println(Arrays.toString(arr)); //[25, 34, 8, 6, 2]
     }
 
 
