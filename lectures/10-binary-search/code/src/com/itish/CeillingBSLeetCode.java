@@ -1,15 +1,24 @@
 package com.itish;
 
-public class BinarySearch {
+public class CeillingBSLeetCode {
     public static void main(String[] args) {
-        // asumming sorted array
-        int [] arr ={2,4,6,8,10,45,78,98};
-        int target = 10;
-        int result = binarySearch(arr,target);
-        System.out.println("The Element found at index no :" + result);
+        int [] arr = {2,3,5,9,14,16,18};
+        int target = 19;
+        int ans = ceilling(arr,target);
+        System.out.println("Ceilling of number is : " + ans);
+
 
     }
-    static int binarySearch(int[] arr,int target){
+
+    // ceilling : smallest no. greater than equal to target
+    // return index
+    static int ceilling(int[] arr,int target){
+
+        // but what if the target element is greater than the greast number in the array
+        if(target > arr[arr.length -1]){
+            return -1;
+        }
+
         // 1. find the mid element
         int start =0;
         int end = arr.length -1;
@@ -28,6 +37,6 @@ public class BinarySearch {
             }
         }
         // if the element not found
-        return -1;
+        return start;
     }
 }

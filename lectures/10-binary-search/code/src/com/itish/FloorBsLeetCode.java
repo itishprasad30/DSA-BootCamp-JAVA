@@ -1,15 +1,17 @@
 package com.itish;
 
-public class BinarySearch {
+public class FloorBsLeetCode {
     public static void main(String[] args) {
-        // asumming sorted array
-        int [] arr ={2,4,6,8,10,45,78,98};
-        int target = 10;
-        int result = binarySearch(arr,target);
-        System.out.println("The Element found at index no :" + result);
+        int [] arr = {2,3,5,9,14,16,18};
+        int target = 15;
+        int ans = floor(arr,target);
+        System.out.println("Florring of number is : " + ans);
 
     }
-    static int binarySearch(int[] arr,int target){
+
+    // floor: greatest number <= equals to target
+    // return the index of
+    static int floor(int[] arr,int target){
         // 1. find the mid element
         int start =0;
         int end = arr.length -1;
@@ -28,6 +30,6 @@ public class BinarySearch {
             }
         }
         // if the element not found
-        return -1;
+        return end;
     }
 }
