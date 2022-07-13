@@ -59,7 +59,7 @@ public class FirstAndLastElementTarget  {
             }else {
                 // pontal answer
                 ans = mid;
-               if(findSearchIndex == true){
+               if(findSearchIndex){
                    end = mid -1;
                }else {
                    start = mid +1;
