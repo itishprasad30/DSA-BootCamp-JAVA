@@ -1,4 +1,7 @@
 package com.itish;
+// Amazon interview question
+// Link:
+// https://www.geeksforgeeks.org/find-position-element-sorted-array-infinite-numbers/
 
 public class InfiniteArrayFindIndex {
     public static void main(String[] args) {
@@ -8,11 +11,18 @@ public class InfiniteArrayFindIndex {
 
     }
     static  int ans (int[] arr,int target){
+        // find the range
+        // first start with a box of size 0
+
         int start = 0;
         int end = 1;
+        // condition for target lies in range
 
         while(target > arr[end]){
+            // this is my new start
             int newStart = end+1;
+            // double the box value
+            // end = end + (end -start +1 ) * 2
             end = end + (end -start +1 )*2;
             start = newStart;
         }
@@ -31,7 +41,6 @@ public class InfiniteArrayFindIndex {
             }else {
                 return  mid;
             }
-
         }
         return -1;
     }
