@@ -2,6 +2,7 @@ package com.itish;
 
 public class MountainArray {
 //    https://leetcode.com/problems/peak-index-in-a-mountain-array/
+
     public static void main(String[] args) {
         int [] arr = {1,2,3,4,5,4,3,2};
         int ans = peakIndexInMountainArray(arr);
@@ -32,6 +33,6 @@ public class MountainArray {
         // hence pointing to one element that max element
         // more elaboreation every start and end they are best posivble ans till that time
         // if you are saying that only one element is laying then best posible ans
-        return start;// or end both are equals
+        return start;// return end because start and end are equals
     }
 }
