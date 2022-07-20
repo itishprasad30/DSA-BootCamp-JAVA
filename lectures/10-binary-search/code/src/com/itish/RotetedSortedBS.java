@@ -94,7 +94,7 @@ public class RotetedSortedBS {
                 return mid -1;
             }
 
-            // if the element at start,middle,end are quals skip the duplicate
+            // if the element at start,middle,end are equals skip the duplicate
 
             if(arr[mid] == arr[start] && arr[mid] == arr[end]){
                 // check start is pivot or not
