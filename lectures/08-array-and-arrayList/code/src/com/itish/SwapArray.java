@@ -5,6 +5,9 @@ import java.util.Arrays;
 public class SwapArray {
     public static void main(String[] args) {
         int[] arr = {2,6,8,34,25};
+        //System.out.println(arr); // it will print random address
+        System.out.println(Arrays.toString(arr));
+
 //        swap (arr,0,4);
 //        System.out.println(Arrays.toString(arr));
         reverse(arr);
