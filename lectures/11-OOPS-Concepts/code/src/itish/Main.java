@@ -43,14 +43,14 @@ public class Main {
 
         System.out.println(itish.rno);// 0
         System.out.println(itish.name);// null
-        System.out.println(itish.marks);//0.0
+        System.out.println(itish.marks);// 85.1
     }
 }
 
 class Student{
     int rno;
     String name;
-    float marks;
+    float marks = 85.1f;
 }
 
 class Student1 {
@@ -58,7 +58,4 @@ class Student1 {
     String[] names = new String[5];
     float[] marks = new float[5];
 
-//    int rno ;
-//    String name;
-//    float marks;
 }
