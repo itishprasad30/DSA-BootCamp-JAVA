@@ -25,6 +25,8 @@ public class HowManyDaysInMonth {
             case 11:
                 System.out.println(month + " This have 30 days in the month");
                 break;
+            default:
+                System.out.println("Plase enter between 1 to 12 :)");
         }
 
         // advance switch case
