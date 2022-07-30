@@ -1,0 +1,38 @@
+import java.util.Scanner;
+
+public class MonthNoHowmanyDays {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        System.out.println("enter the month number :( mm )");
+        int month = in.nextInt();
+        switch (month) {
+            case 1, 3, 5, 7, 8, 10, 12 -> System.out.println(month + " This have 31 days in the month.");
+            case 2 -> System.out.println(month + " THis have 28 or 29 days in the month");
+            case 4, 6, 9, 11 -> System.out.println(month + " This have 30 days in the month");
+            default -> System.out.println("Plase enter between 1 to 12 :)");
+        }
+
+//        switch (month){
+//            case 1:
+//            case 3:
+//            case 5:
+//            case 7:
+//            case 8:
+//            case 10:
+//            case 12:
+//                System.out.println(month+ " This have 31 days in the month.");
+//                break;
+//            case 2:
+//                System.out.println(month +  " THis have 28 or 29 days in the month");
+//                break;
+//            case 4:
+//            case 6:
+//            case 9:
+//            case 11:
+//                System.out.println(month + " This have 30 days in the month");
+//                break;
+//            default:
+//                System.out.println("Plase enter between 1 to 12 :)");
+//        }
+    }
+}
