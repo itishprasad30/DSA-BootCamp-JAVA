@@ -16,15 +16,26 @@ public class ptr11 {
         int limit=10;
         int k=1;
 
-        for(int i=1;i<=n;i++){
-            for (int j=1;j<=n;j++){
-                System.out.print(k+ " ");
-                k++;
-                if(limit==k) {
-                    k=1;
-                }
-            }
+//        for(int i=1;i<=n;i++){
+//            for (int j=1;j<=n;j++){
+//                System.out.print(k+ " ");
+//                k++;
+//                if(limit==k) {
+//                    k=1;
+//                }
+//            }
+//
+//            System.out.println();
+//        }
 
+        // anothor way
+        int a=0;
+        for (int i = 1; i <=n; i++) {
+            for (int j =1; j <=n ; j++) {
+                System.out.print(a%9+1+" ");
+
+                a++;
+            }
             System.out.println();
         }
     }
