@@ -1,9 +1,13 @@
 package itish.inheritance;
 
-public class Box {
+public   class Box {
     double l;
     double w;
     double h;
+
+    static void greetings(){
+        System.out.println("hey ,I am in Box Class grettins");
+    }
 
     Box (){
         this.l = -1;
@@ -23,6 +27,8 @@ public class Box {
         this.h=h;
         this.w=w;
     }
+
+    // Copy constructor
 
     Box( Box old){
         this.h = old.h;
