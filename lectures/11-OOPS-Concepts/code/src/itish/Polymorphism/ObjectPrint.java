@@ -16,6 +16,6 @@ public class ObjectPrint {
 
     public static void main(String[] args) {
         ObjectPrint obj = new ObjectPrint(32);
-        System.out.println(obj);
+        System.out.println(obj.toString());
     }
 }
