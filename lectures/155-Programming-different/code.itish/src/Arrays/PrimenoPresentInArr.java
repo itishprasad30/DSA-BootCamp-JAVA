@@ -29,14 +29,22 @@ public class PrimenoPresentInArr {
 
         int size = in.nextInt();
         int [] arr = new int[size];
-
+        System.out.println("Enter the elements of Array ");
         for (int i = 0; i < arr.length; i++) {
             arr[i] = in.nextInt();
         }
         return arr;
     }
+    static  void displayArr(int[] arr){
+        for (int i = 0; i < arr.length; i++) {
+            System.out.println(arr[i] + " ");
+        }
+        System.out.println();
+    }
     public static void main(String[] args) {
         int []a = readArray();
+        System.out.println("User Enterd Array is : ");
+        displayArr(a);
 
         int pc = countPrimeNumber(a);
         System.out.println("Total Prime number present in array is :"+ pc);

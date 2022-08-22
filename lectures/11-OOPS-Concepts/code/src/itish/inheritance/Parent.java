@@ -1,8 +1,8 @@
 package itish.inheritance;
 
 public class Parent {
-    int a;
-    int b;
+    int a = 44;
+    int b = 32;
     Parent(int a,int b,int c){
         System.out.println("Hello");
     }

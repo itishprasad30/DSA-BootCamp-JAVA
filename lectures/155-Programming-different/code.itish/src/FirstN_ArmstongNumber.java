@@ -7,7 +7,6 @@ public class FirstN_ArmstongNumber {
         System.out.println("Enter nos to armstrong Num: ");
         int n = in.nextInt();
         for (int i = 1; n> 0 ; i++) {
-
             boolean res = isArmstrong(i);
             if(res){
                 System.out.print(i + " ");

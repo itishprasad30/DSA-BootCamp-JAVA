@@ -23,5 +23,18 @@ public class HappyNumber {
             System.out.println(num + " is not a happy Number");
 
     }
+    static  boolean isHappry(int n){
+        while (n > 9){
+            int sum= 0;
+            do{
+                int r = n% 10;
+                sum = sum+ r;
+                n = n/10;
+            }while (n!=0);
+            n = sum;
+        }
+
+        return n == 1|| n ==7;
+    }
 
 }
