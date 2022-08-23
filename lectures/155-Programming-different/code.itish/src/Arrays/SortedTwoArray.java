@@ -16,7 +16,7 @@ public class SortedTwoArray {
 
         int[] merged = mergeArray(c,d);
         int[] sortedArray = sortedArray(merged);
-        System.out.println(Arrays.toString(merged));
+        System.out.println(Arrays.toString(sortedArray));
     }
     static int[] mergeArray(int[] x, int[] y) {
         int []c = new int[x.length + y.length];
