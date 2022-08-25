@@ -1,3 +1,5 @@
+package NumberPrograms;
+
 import java.util.Scanner;
 
 public class GreadingWise {

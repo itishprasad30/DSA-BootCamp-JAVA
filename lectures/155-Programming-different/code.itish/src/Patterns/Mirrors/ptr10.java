@@ -2,6 +2,18 @@ package Patterns.Mirrors;
 
 import java.util.Scanner;
 
+/*
+Enter the Number of Lines
+7
+      *
+    *   *
+  *       *
+*           *
+  *       *
+    *   *
+      *
+
+ */
 public class ptr10 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);

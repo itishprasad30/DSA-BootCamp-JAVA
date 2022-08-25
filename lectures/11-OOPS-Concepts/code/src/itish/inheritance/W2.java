@@ -7,6 +7,10 @@ public class W2 extends W1{
         this.age = age;
     }
 
+    protected void sum(){
+        System.out.println("sum of b is ");
+    }
+
     public static void main(String[] args) {
         W2 w = new W2("whatapp",32234442,22);
         System.out.println(w.age); // 22

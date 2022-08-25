@@ -1,3 +1,5 @@
+package NumberPrograms;
+
 public class HappyNumber {
 
     static  int isHappyNum(int n){

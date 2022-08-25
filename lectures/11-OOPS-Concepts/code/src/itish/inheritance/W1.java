@@ -7,4 +7,8 @@ public class W1 {
         this.name = name;
         this.cno = cno;
     }
+
+    protected void sum(){
+        System.out.println("sum is a+b");
+    }
 }

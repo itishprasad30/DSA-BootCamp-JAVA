@@ -1,3 +1,5 @@
+package NumberPrograms;
+
 import java.util.Scanner;
 
 // Leap year -> divisable by 400 or not div by 100 and div by 4
