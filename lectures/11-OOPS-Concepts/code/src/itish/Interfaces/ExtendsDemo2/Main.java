@@ -8,7 +8,13 @@ public class Main implements A,B{
     public static void main(String[] args) {
         Main m = new Main();
         m.fun(); // I am in A
-        m.fun2(); // I am in B
-        A.display(); //Hey i am in static interface
+        //m.fun(); // I am in B
+        //A.display(); //Hey i am in static interface
+    }
+
+    @Override
+    public void fun() {
+        A.super.fun();
+        B.super.fun();
     }
 }

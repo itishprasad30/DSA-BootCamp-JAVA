@@ -9,12 +9,12 @@ public class MulitdimensionalArrayList {
         ArrayList<ArrayList<Integer>> list = new ArrayList<>();
 
         // for need to intialised
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < 2; i++) {
             list.add(new ArrayList<>());
         }
         // adding elements
-        for (int i = 0; i < 3; i++) {
-            for (int j = 0; j < 3; j++) {
+        for (int i = 0; i < 2; i++) {
+            for (int j = 0; j < 2; j++) {
                 list.get(i).add(in.nextInt());
             }
         }

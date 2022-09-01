@@ -66,7 +66,18 @@ public class CustomArrayList {
         list.add(3);
         list.add(5);
         list.add(9);
+        for (int i = 0; i < 14; i++) {
+               list.add(2*i);
+        }
 
         System.out.println(list);
+        // 1.Type Safety
+        // 2. homogenous element
+        // 3.you only add Classes
+        // 4. can't add primitive datatype
+
+//        ArrayList<Integer> list1 = new ArrayList<>();
+//        ArrayList<String> list1 = new ArrayList<>();
+//        list1.add(3);
     }
 }
