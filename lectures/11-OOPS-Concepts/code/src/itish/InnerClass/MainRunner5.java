@@ -8,7 +8,7 @@ public class MainRunner5 {
         Runnable rn = new Runnable() {
             @Override
             public void run() {
-                System.out.println("INSIDe the Runner class");
+                System.out.println("Inside the Runner class");
             }
         };
 
