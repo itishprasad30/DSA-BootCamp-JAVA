@@ -8,10 +8,41 @@ public class MinNumberCoins {
          // ex = input = 33, o/p = 9
         int num = 33;
 
-        for (int i = 0; i < 5; i++) {
+       int res = minNum(num);
+        System.out.println(res);
+
+
+    }
+    static int minNum(int num){
+
+
+        if(num > 40){
+            return 0;
+        }
+        int count= 0;
+        int rem =0;
+
+        if(num > 25 ){
+            count = count+5;
 
         }
+        else {
+            rem = num % 5;
+        }
+        if(rem > 10 ){
+            count = count+ 5;
+        }
+        else {
+            rem=count+ num % 2;
+        }
+        if(rem > 5 ){
+            count = count+ 5;
+        }
+        else {
+            rem=count+ num % 1;
+        }
 
+        return count;
     }
 
 }

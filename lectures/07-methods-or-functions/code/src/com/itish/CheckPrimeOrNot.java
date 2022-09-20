@@ -11,18 +11,18 @@ public class CheckPrimeOrNot {
         boolean result = isPrime(n);
         System.out.println(result);
 
-        for (int i = 0; i < 100; i++) {
+        for (int i = 0; i < 30; i++) {
             if(isPrime(i)){
                 System.out.print(i +" \t ");
             }
 
         }
-        System.out.println();
-        for (int i = 0; i < 1000; i++) {
-            if(isAmstorng(i)){
-                System.out.print(i + "\t");
-            }
-        }
+//        System.out.println();
+//        for (int i = 0; i < 1000; i++) {
+//            if(isAmstorng(i)){
+//                System.out.print(i + "\t");
+//            }
+//        }
 
     }
 

@@ -1,6 +1,5 @@
 package itish.generics;
 
-import jdk.dynalink.Operation;
 
 import java.util.ArrayList;
 

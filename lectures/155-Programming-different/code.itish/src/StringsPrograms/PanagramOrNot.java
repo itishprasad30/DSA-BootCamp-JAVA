@@ -15,7 +15,10 @@ public class PanagramOrNot {
             System.out.println("not panagram");
 
     }
+    // normal ways
     static boolean isPanagram(String str){
+        if(str.length() < 26)
+            return false;
         int []count = new int[26];
 
         for (int i = 0; i < str.length(); i++) {
@@ -32,6 +35,17 @@ public class PanagramOrNot {
         for (int i = 0; i < count.length; i++) {
             System.out.println((char)(i+65) +"---->" + count[i]);
             if(count[i]== 0)
+                return false;
+        }
+        return true;
+    }
+    // using string inbuilt functions
+    static boolean isPanagram2(String str){
+        if(str.length()<26)
+            return false;
+        str = str.toLowerCase();
+        for(char ch = 'a';ch<='z';ch++){
+            if(str.indexOf(ch) == -1)
                 return false;
         }
         return true;

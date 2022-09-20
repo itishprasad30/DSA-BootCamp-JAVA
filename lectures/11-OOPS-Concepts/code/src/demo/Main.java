@@ -9,5 +9,7 @@ public class Main {
             }
         };
         p.fun();
+
+        System.out.println(p.hashCode());
     }
 }

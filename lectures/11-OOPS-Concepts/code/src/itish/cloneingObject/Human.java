@@ -25,7 +25,7 @@ public class Human implements Cloneable{
 
         // make the deep copy
         twin.arr = new int[twin.arr.length];
-        for (int i = 0; i < twin.arr.length; i++) {
+        for(int i = 0; i < twin.arr.length; i++) {
             twin.arr[i] = this.arr[i];
         }
         return twin;

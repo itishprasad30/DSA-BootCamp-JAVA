@@ -76,7 +76,7 @@ public class CustomeGenArrList <T>{
                 list.add(2*i);
             }
 
-            System.out.println(list);
+            System.out.println(list.toString());
             // 1.Type Safety
             // 2. homogenous element
             // 3.you only add Classes
