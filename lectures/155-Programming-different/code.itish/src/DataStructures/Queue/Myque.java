@@ -36,7 +36,7 @@ public class Myque {
     public String toString() {
        String st = "[";
         for (int i = front; i <= rear ; i++) {
-            st = st+ obj[i]+ ",";
+            st = st + obj[i]+ ",";
         }
         return st + "]";
     }

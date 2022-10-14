@@ -45,8 +45,9 @@ It does not matter what you leave beyond the returned k (hence they are undersco
  */
 public class RemoveDuplicatesFromArray {
     public static void main(String[] args) {
-        int[]arr ={1,1,2};
+        int[]arr ={1,1,2,2};
         System.out.println(duplicates(arr));
+        System.out.println(duplicates2(arr));
     }
 
     public static int duplicates(int []arr){
@@ -55,6 +56,18 @@ public class RemoveDuplicatesFromArray {
             if(i==0 || (i> 0 && n> arr[i-1])){
                 arr[i] = n;
                 i++;
+            }
+        }
+        return i;
+    }
+
+    // duplicate but aleast two are allowed 
+    public static int duplicates2(int[]arr){
+        int i=0;
+        for(int n:arr){
+            if(i<2 || n> arr[i-2]){
+                arr[i++] = n;
+
             }
         }
         return i;

@@ -30,6 +30,18 @@ public class BuildBst {
         System.out.print(root.data + " ");
         inorder(root.right);
     }
+
+    public static boolean search(Node root,int key){
+        if(root == null)
+            return false;
+        if(root.data > key)
+            return search(root.left,key);
+        else if(root.data<key)
+            return search(root.right,key);
+        else {
+            return true;
+        }
+    }
     public static void main(String[] args) {
         int []values={5,1,3,4,2,7};
 
@@ -42,5 +54,10 @@ public class BuildBst {
         inorder(root);
         System.out.println();
 
+        if(search(root,77)){
+            System.out.println("found ");
+        }else {
+            System.out.println("not found");
+        }
     }
 }
