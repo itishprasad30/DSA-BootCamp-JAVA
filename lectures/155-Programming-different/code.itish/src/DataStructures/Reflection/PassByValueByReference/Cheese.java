@@ -1,4 +1,4 @@
-package Demo1.PassByValueByReference;
+package DataStructures.Reflection.PassByValueByReference;
 
 import java.util.Objects;
 
