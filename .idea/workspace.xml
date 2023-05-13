@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6137e5f2-843c-4b96-926c-e0d77b396d52" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NeetCodePrgramming.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArrayAndHashing/Anagram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArrayAndHashing/ContainsDuplicateArray.java" afterDir="false" />
-    </list>
+    <list default="true" id="6137e5f2-843c-4b96-926c-e0d77b396d52" name="Changes" comment="Leetcode Programmming Praticing from Neetcode" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,6 +76,14 @@
       <option name="presentableId" value="Default" />
       <updated>1683865834120</updated>
     </task>
+    <task id="LOCAL-00001" summary="Leetcode Programmming Praticing from Neetcode">
+      <created>1683953058424</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1683953058424</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -98,6 +97,10 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Leetcode Programmming Praticing from Neetcode" />
+    <option name="LAST_COMMIT_MESSAGE" value="Leetcode Programmming Praticing from Neetcode" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -105,6 +108,11 @@
           <url>file://$PROJECT_DIR$/src/ArrayAndHashing/ContainsDuplicateArray.java</url>
           <line>55</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ArrayAndHashing/Anagram.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
