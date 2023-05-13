@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/lectures/05-first-java-program/05-first-java-program.iml" filepath="$PROJECT_DIR$/lectures/05-first-java-program/05-first-java-program.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lectures/07-methods-or-functions/07-methods-or-functions.iml" filepath="$PROJECT_DIR$/lectures/07-methods-or-functions/07-methods-or-functions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lectures/08-array-and-arrayList/08-array-and-arrayList.iml" filepath="$PROJECT_DIR$/lectures/08-array-and-arrayList/08-array-and-arrayList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lectures/09-linear-search/09-linear-search.iml" filepath="$PROJECT_DIR$/lectures/09-linear-search/09-linear-search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lectures/10-binary-search/10-binary-search.iml" filepath="$PROJECT_DIR$/lectures/10-binary-search/10-binary-search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lectures/11-OOPS-Concepts/11-OOPS-Concepts.iml" filepath="$PROJECT_DIR$/lectures/11-OOPS-Concepts/11-OOPS-Concepts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lectures/12-Sorting-Arrays/12-Sorting-Arrays.iml" filepath="$PROJECT_DIR$/lectures/12-Sorting-Arrays/12-Sorting-Arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lectures/13-LinkedList/13-LinkedList.iml" filepath="$PROJECT_DIR$/lectures/13-LinkedList/13-LinkedList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lectures/155-Programming-different/155-Programming-different.iml" filepath="$PROJECT_DIR$/lectures/155-Programming-different/155-Programming-different.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lectures/06-conditional-loops/Code/Code.iml" filepath="$PROJECT_DIR$/lectures/06-conditional-loops/Code/Code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/DSA BootCamp JAVA.iml" filepath="$PROJECT_DIR$/.idea/DSA BootCamp JAVA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lectures/06-conditional-loops/Switch-Case-New/Switch-Case-New.iml" filepath="$PROJECT_DIR$/lectures/06-conditional-loops/Switch-Case-New/Switch-Case-New.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lectures/05-first-java-program/first-intelij-program/first-intelij-program.iml" filepath="$PROJECT_DIR$/lectures/05-first-java-program/first-intelij-program/first-intelij-program.iml" />
+    </modules>
+  </component>
+</project>

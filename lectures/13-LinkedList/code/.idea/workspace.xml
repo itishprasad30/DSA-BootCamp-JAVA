@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3751e537-9411-43d4-8e09-4674f38abbc1" name="Changes" comment="Linked list data structure own implimentatiion">
+      <change afterPath="$PROJECT_DIR$/../../11-OOPS-Concepts/code/src/itish/Thread/MultiThreadinThings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../11-OOPS-Concepts/code/src/itish/Thread/MultiThreading.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../11-OOPS-Concepts/code/src/itish/Thread/TheadingRun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../11-OOPS-Concepts/code/src/itish/Thread/ThreadingRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../155-Programming-different/code.itish/src/DataStructures/Queue/MyQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../155-Programming-different/code.itish/src/DataStructures/Queue/Myque.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../155-Programming-different/code.itish/src/DataStructures/Reflection/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../155-Programming-different/code.itish/src/DataStructures/Reflection/Reflection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../155-Programming-different/code.itish/src/DataStructures/SingleLinkedList/MainSingleLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../155-Programming-different/code.itish/src/DataStructures/SingleLinkedList/SingleLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../155-Programming-different/code.itish/src/DataStructures/Stack/MyOwnStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../155-Programming-different/code.itish/src/DataStructures/Stack/MyStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../155-Programming-different/code.itish/src/PraticeProgram/StringPrograms/RepeatedCharTo$.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2FKnWRCxKo0ENu3qFFquaKs91MU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/ITISH PRASAD/DSA BootCamp JAVA/lectures/13-LinkedList",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.MyDLL">
+    <configuration name="MainLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LinkedList.MainLinkedList" />
+      <module name="com.itish" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LinkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyDLL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DoublyLinkedList.MyDLL" />
+      <module name="com.itish" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DoublyLinkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MyDLL" />
+        <item itemvalue="Application.MainLinkedList" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3751e537-9411-43d4-8e09-4674f38abbc1" name="Changes" comment="" />
+      <created>1664249677808</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1664249677808</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Linked list data structure own implimentatiion">
+      <created>1664375435361</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1664375435361</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Linked list data structure own implimentatiion">
+      <created>1664375515179</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1664375515179</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Linked list data structure own implimentatiion">
+      <created>1664375556379</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1664375556379</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Linked list data structure own implimentatiion">
+      <created>1664375676419</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1664375676419</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Linked list data structure own implimentatiion" />
+    <option name="LAST_COMMIT_MESSAGE" value="Linked list data structure own implimentatiion" />
+  </component>
+</project>
