@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6137e5f2-843c-4b96-926c-e0d77b396d52" name="Changes" comment="Leetcode Programmming Praticing from Neetcode" />
+    <list default="true" id="6137e5f2-843c-4b96-926c-e0d77b396d52" name="Changes" comment="Leetcode Programmming Praticing from Neetcode">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,7 +85,21 @@
       <option name="project" value="LOCAL" />
       <updated>1683953058424</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Leetcode Programmming Praticing from Neetcode">
+      <created>1683953277446</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1683953277446</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Leetcode Programmming Praticing from Neetcode">
+      <created>1683953556586</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1683953556586</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
