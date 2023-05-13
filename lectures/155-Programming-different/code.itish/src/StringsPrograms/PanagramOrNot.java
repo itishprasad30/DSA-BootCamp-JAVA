@@ -50,4 +50,16 @@ public class PanagramOrNot {
         }
         return true;
     }
+    static boolean isPanagram3 (String str){
+        if(str.length()<26)
+            return false;
+
+        str = str.toLowerCase();
+        for (char ch = 'a';ch<='z';ch++){
+            if(str.indexOf(ch) == -1){
+                return false;
+            }
+        }
+        return true;
+    }
 }

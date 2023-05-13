@@ -29,7 +29,7 @@ public class advptr9 {
             {
 
                 System.out.print(x+ "   ");
-               x = x * (i-j)/j;
+                x = x * (i-j)/j;
             }
 
             System.out.println();

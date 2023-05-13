@@ -44,9 +44,9 @@ Thus, the result should be [1,0].
 public class PlusOne {
 
     public static void main(String[] args) {
-        int []arr = {9};
+        int []arr = {2,3,4,9};
         int []res = plusArray(arr);
-        System.out.println(Arrays.toString(res));
+        System.out.println(Arrays.toString(res)); // [2,3,5,0]
     }
     static int[] plusArray(int []arr){
         int carry = 1;

@@ -1,4 +1,4 @@
-package Demo1.PassByValueByReference;
+package DataStructures.Reflection.PassByValueByReference;
 
 public class PassByValueAndRef {
     // Java always 100% time pass by value

@@ -28,5 +28,6 @@ public class InnnerClass {
 
         System.out.println(a.name);
         System.out.println(b.name);
+
     }
 }

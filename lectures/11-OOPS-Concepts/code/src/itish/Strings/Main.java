@@ -1,7 +1,7 @@
 package itish.Strings;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         String name1 = "itish";
         String name2 = "itish";
         System.out.println(name1 == name2);// true one object pointing to two reference varible
@@ -15,7 +15,7 @@ public class Main {
         System.out.println(name1 .equals(s1));
 
         String ss = null;
-        System.out.println(ss);// null pointer exception
+        System.out.println(ss.length());// null pointer exception
 
     }
 }
