@@ -69,7 +69,7 @@ public class BFS {
         int v = 7;
         ArrayList<Edge> []graph = new ArrayList[v];
         createGraph(graph);
-
+        // Time complexity = O(v+e)
         boolean[] vis = new boolean[v];
         for(int i=0;i<v;i++){
             if(vis[i]== false){
