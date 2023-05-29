@@ -54,6 +54,8 @@ public class Test {
                 return m1.getYear() - m2.getYear();
             }
         };
+        //Comparator<Movie> com3 = (Movie m1, Movie m2) ->  m2.getYear() - m1.getYear();
+
 
         Collections.sort(list, com);
         for (Movie m : list) {
@@ -73,7 +75,7 @@ public class Test {
         Force Awakans || 8.3 || 2015
          */
 
-        // USing lamda Expression
+        // USing lambda Expression
         Comparator<Movie> com1 =(Movie m1, Movie m2) -> Double.compare(m1.getRating(), m2.getRating());
 
         // replace by
