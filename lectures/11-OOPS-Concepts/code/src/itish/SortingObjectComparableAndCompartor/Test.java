@@ -1,6 +1,6 @@
 package itish.SortingObjectComparableAndCompartor;
 
-import java.text.CollationElementIterator;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
@@ -62,7 +62,7 @@ public class Test {
 
         // Sorting by rating using comparator
         System.out.println("\n Sorting by rating in comparator");
-        Collections.sort(list,new RatingComparator());
+        Collections.sort(list, new RatingComparator());
         for (Movie m : list) {
             System.out.println(m.getName() + " || " + m.getRating() + " || " + m.getYear() + " ");
         }
@@ -73,5 +73,25 @@ public class Test {
         Force Awakans || 8.3 || 2015
          */
 
+        // USing lamda Expression
+        Comparator<Movie> com1 =(Movie m1, Movie m2) -> Double.compare(m1.getRating(), m2.getRating());
+
+        // replace by
+        //  Comparator<Movie> com1 = Comparator.comparingDouble(Movie::getRating);
+
+        System.out.println("\n Sorting by rating in comparator");
+        Collections.sort(list, com1);
+        for (Movie m : list) {
+            System.out.println(m.getRating());
+        }
+
     }
 }
+/*
+Comparable and Comparator are two interfaces in Java that can be used to sort objects using different criteria. The main differences between them are:
+
+Comparable is implemented by the class that needs to be sorted, while Comparator is implemented by a separate class that compares two different objects.
+Comparable provides a single sorting sequence based on a natural order, while Comparator can provide multiple sorting sequences based on different attributes.
+Comparable defines the compareTo() method that compares the current object with another object of the same type, while Comparator defines the compare() method that compares two objects of different types.
+Comparable is found in the java.lang package, while Comparator is found in the java.util package.
+ */
