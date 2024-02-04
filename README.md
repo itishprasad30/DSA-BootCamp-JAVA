@@ -2,7 +2,7 @@
 
 
 ## Connect with me
-  <a target="_blank" href="https://twitter.com/itish_prasad">
+  <a target="_blank" href="https://twitter.com/itishprasad30">
     <img width="30px" src="https://www.vectorlogo.zone/logos/twitter/twitter-official.svg" />
   </a>&ensp;
   <a target="_blank"  href="https://www.linkedin.com/in/itishprasad/">
